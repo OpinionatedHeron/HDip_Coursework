@@ -1,0 +1,14 @@
+.article-grid {
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	grid-gap: 2%;
+	padding: 10px;
+}
+
+.grid-cell {
+	text-align: center;
+	border: solid;
+	border-color: #FDBDCB;
+	border-radius: 25px;
+	padding: 5px;
+}

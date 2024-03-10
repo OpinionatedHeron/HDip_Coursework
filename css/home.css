@@ -1,0 +1,110 @@
+@import url("header.css");
+@import url("navigation.css");
+@import url("footer.css");
+@import url("images.css");
+@import url("contact.css");
+@import url("start.css");
+@import url("resources.css");
+@import url(article-grid.css);
+
+body {
+	background-color: #f5f5f5;
+	font-family: Cambria, serif;
+	color: #3B3B39;
+}	
+
+h3 {
+	font-size: 200%;
+}
+
+p {
+	font-size: 20px;
+}
+
+hr {
+	color: white;
+	width: 80%;
+	border-top: white;
+}
+
+.headings {
+	background-color: #FDBDCB;
+	border-radius: 25px;
+	width: 350px;
+	height: 60px;
+}
+
+.heading-text {
+	text-align: center;
+	padding-top: 15px;
+}
+
+#maincontent {
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+.container {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	display: grid;
+	grid-template-columns: 10% 65% 22%;
+	grid-gap: 1.5%;
+}
+
+#aboutme-sidebar {
+	background-color: #FDBDCB;
+	padding: 20px;
+	border-radius: 25px;
+}
+
+a:link {
+	color: #FF677C;
+}
+
+a:visited {
+	color: #4389C4;
+}
+
+.content-main {
+	grid-column-start: 2;
+	grid-column-end: span 2;
+	margin-right: 20px;
+}
+
+#store-body {
+	margin-right: 100px;
+	margin-left: 30px;
+}
+
+#store-grid {
+	display: grid;
+	grid-column-start: 2;
+	grid-column-end: span 2;	
+	grid-template-rows: auto;
+	grid-gap: 2%;
+	margin-right: 200px;
+	margin-left: 100px;
+	margin-bottom: 50px;
+}
+
+.store-row {
+	border: solid;
+	border-radius: 25px;
+	border-color: #FDBDCB;
+	padding: 10px;
+}
+
+.d20-main {
+	grid-column-start: 2;
+	grid-column-end: span 2;
+}
+
+.video {
+	margin-top: 15px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px;
+}
+

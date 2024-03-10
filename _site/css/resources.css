@@ -1,0 +1,14 @@
+.resource-main {
+	grid-column-start: 2;
+	grid-column-end: span 2;
+	margin-right: 20px;
+}
+
+.resource-heading {
+	font-size: 130%;
+}
+
+#resource-body {
+	margin-right: 100px;
+	margin-left: 30px;
+}

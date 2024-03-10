@@ -1,0 +1,24 @@
+#start-maincontent {
+	grid-column-start: 2;
+	grid-column-end: span 2;
+}
+
+.start-paragraphs {
+	padding-left: 30px;
+	padding-right: 100px;
+	padding-bottom: 10px;
+}
+
+.start-text {
+	margin-left: 10px;
+}
+
+#materials-grid {
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+}
+
+.material-options {
+	font-size: 150%;
+	text-align: center;
+}

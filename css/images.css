@@ -1,0 +1,63 @@
+.mypicture {
+	border-radius: 50%;
+	height: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#adventure {
+	width: 1000px;
+	border-radius: 25px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.insta-logo {
+	width: 50px;
+}
+
+.fb-logo {
+	width: 50px;
+}
+
+.tiktok-logo {
+	width: 50px;
+}
+
+#email-icon {
+	width: 80px;
+}
+
+#phone-icon {
+	width: 80px;
+}
+
+#discord-icon {
+	width: 80px;
+}
+
+#basic-rules {
+	width: 270px;
+	float: left;
+	margin-right: 10px;
+	border-radius: 25px;
+}
+
+.material-imgs {
+	width: 300px;
+	border-radius: 25px;
+}
+
+.article-img {
+	width: 300px;
+	border-radius: 25px;
+}
+
+.shop-icon {
+	width: 200px;
+	float: left;
+	margin-right: 50px;
+	border-radius: 25px;
+}

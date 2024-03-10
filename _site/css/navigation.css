@@ -1,0 +1,26 @@
+.navigation {
+	position: sticky;
+	top: 0;
+	margin: 0;
+	padding: 0;
+	border-radius: 25px;
+	background-color: #FDBDCB;
+	height: 350px;
+	font-size: 22px;
+	text-align: center;
+}
+
+.navigation a {
+	display: block;
+	color: #FF677C;
+	padding: 16px;
+	text-decoration: none;
+	position: sticky;
+}
+
+.navigation a.active {
+	background-color: #4389C4;
+	color: floralwhite;
+	border-radius: 25px;
+	position: sticky;
+}

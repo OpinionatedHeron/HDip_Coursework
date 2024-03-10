@@ -1,0 +1,14 @@
+.image-header {
+	background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("../images/dice-tray.jpg");
+	height: 150px;
+	padding: 10px;
+	background-position: center;
+	background-size: cover;
+}
+
+#header-text {
+	color: #FF677C;
+	text-shadow: 1px 1px 2px grey;
+	font-size: 160%;
+	text-align: center;
+}

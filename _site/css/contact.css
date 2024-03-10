@@ -1,0 +1,40 @@
+.contact-info {
+	font-size: 110%;
+}
+
+#contact-main {
+	grid-column-start: 2;
+	grid-column-end: span 2;
+	background-color: #FDBDCB;
+	border-radius: 25px;
+	height: 600px;
+}
+
+#contact-box {
+	margin: 100px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-style: solid;
+	border-color: floralwhite;
+	border-width: 5px;
+	padding: 10px;
+	border-radius: 25px;
+	text-align: center;
+}
+
+#contact-methods {
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+}
+
+#email {
+	text-align: center;
+}
+
+#phone {
+	text-align: center;
+}
+
+#discord {
+	text-align: center;
+}
